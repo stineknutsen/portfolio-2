@@ -1,8 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div>
-        <h1 className="">Footer</h1>
+      <div className="text-center p-4">
         <p>&copy; Stine Knutsen 2025</p>
       </div>
     </>

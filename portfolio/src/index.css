@@ -1,1 +1,21 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+:root {
+  --font-heading: "Raleway", sans-serif;
+  --font-body: "Lora", serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #faf7f5;
+  color: #1a1a1a;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+}
