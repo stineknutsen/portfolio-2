@@ -1,19 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
-        primary: "#1B4332", // dark green
-        accent: "#FFC6FE", // soft pink
-        lavender: "#CBB2FE", // soft purple
-        background: "#FAF7F5", // off-white
-        mist: "#CEE0DC",
-        text: "#1A1A1A", // dark gray text
-      },
-      fontFamily: {
-        heading: ["Raleway", "sans-serif"],
-        body: ["Lora", "serif"],
+        background: "#F1E9F7", // light purple
+        primary: "#342645", // grape purple
+        secondary: "#C0EDEC", // frozen water
+        accent: "#7DC3C2", // pearl aqua
       },
     },
   },
