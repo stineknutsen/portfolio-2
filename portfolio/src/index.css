@@ -2,20 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Fonts */
 :root {
-  --font-heading: "Raleway", sans-serif;
-  --font-body: "Lora", serif;
+  --font-global: "Raleway", sans-serif;
 }
 
-body {
-  font-family: var(--font-body);
-  background-color: #faf7f5;
-  color: #1a1a1a;
-}
-
+body,
 h1,
 h2,
 h3 {
-  font-family: var(--font-heading);
+  font-family: var(--font-global);
 }
