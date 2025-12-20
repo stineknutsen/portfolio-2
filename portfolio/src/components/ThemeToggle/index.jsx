@@ -8,7 +8,6 @@ export default function ThemeToggle() {
   });
 
   useEffect(() => {
-    console.log("darkMode", darkMode);
     const root = window.document.documentElement;
     if (darkMode) {
       root.classList.add("dark");
