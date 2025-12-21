@@ -6,15 +6,16 @@ This portfolio is built with React and Tailwind. It was made for the Noroff Fron
 
 ## Pages
 
-- Portfolio page:
-- Project page:
-- About page:
-- Contact page:
+- Portfolio page: Features a hero section and three projects
+- Project page: Dynamically renders project image and article, with links to repo and live page
+- About page: Information about me as a developer
+- Contact page: Shows a couple different ways to get in touch
 
 ## Features
 
 - Dynamically rendered project article page
 - Responsive design
+- Dark/light mode
 
 ## Technologies used
 
